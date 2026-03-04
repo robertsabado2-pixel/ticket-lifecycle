@@ -68,10 +68,8 @@ This repository documents a hands-on lab for **preparing Active Directory infras
 - Confirm a new user profile is created on first login  
 - Lab is ready for further AD exercises
 
-📸 **Screenshot to Insert Below:**  
-👉 Client desktop showing successful login with a domain user account
+<img width="1373" height="774" alt="Screenshot 2026-03-04 142238" src="https://github.com/user-attachments/assets/d5975359-ec4c-46a6-907b-260809f371d4" />
 
-![User Login Screenshot](screenshots/REPLACE-user-login.png)
 
 ---
 
