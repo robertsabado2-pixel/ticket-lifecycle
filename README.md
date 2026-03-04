@@ -18,10 +18,8 @@ This repository documents a hands-on lab for **preparing Active Directory infras
 - Create a Virtual Network inside the Resource Group  
 - Both VMs (Domain Controller & Client) will be deployed in this network
 
-📸 **Screenshot to Insert Below:**  
-👉 Azure Portal showing Resource Group and Virtual Network overview
+<img width="1221" height="734" alt="image" src="https://github.com/user-attachments/assets/a02c8f69-5d86-4e90-9445-649c8531f0af" />
 
-![Resource Group & VNet](screenshots/REPLACE-rg-vnet.png)
 
 ---
 
