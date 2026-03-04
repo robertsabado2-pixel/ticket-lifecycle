@@ -1,46 +1,110 @@
+# 🖥 Active Directory Lab – Azure Step-by-Step
 
-<!-- GitHub Portfolio Project: AD Lab in Azure -->
+<!-- TOP IMAGE: Replace with your own screenshot of the lab overview or Azure Portal -->
+📸 **Header Screenshot (Top of README)**  
+👉 Screenshot could be Azure Portal showing the AD lab overview, Resource Group, or both VMs running.
 
-<div class="project">
+![AD Lab Header](screenshots/REPLACE-header.png)
 
-  <h2>Active Directory Lab in Azure</h2>
-  <p><strong>Summary:</strong> Setting up an Active Directory environment in Microsoft Azure using virtual machines and PowerShell for bulk user creation.</p>
+---
 
-  <!-- Section 1: AD Infrastructure -->
-  <h3>1. Preparing AD Infrastructure in Azure</h3>
-  <ul>
-    <li>Create a <strong>Resource Group</strong> and a <strong>Virtual Network</strong> in Azure for the AD lab.</li>
-    <li>Set up two VMs:
-      <ul>
-        <li><strong>Domain Controller:</strong> Windows Server 2022</li>
-        <li><strong>Client:</strong> Windows 10</li>
-      </ul>
-    </li>
-    <li>Assign a <strong>static private IP</strong> to the Domain Controller for reliable DNS.</li>
-    <li>Disable Windows Firewall on the Domain Controller for lab simplicity.</li>
-    <li>Configure the client’s DNS to point to the Domain Controller IP instead of Azure’s default DNS.</li>
-    <li>Restart the client, test connectivity (ping DC from client), and confirm DNS configuration using <code>ipconfig /all</code>.</li>
-  </ul>
+This repository documents a hands-on lab for **preparing Active Directory infrastructure in Microsoft Azure** and creating users with PowerShell.
 
-  <!-- Screenshot placeholder -->
-  <p><em>Insert screenshots of your Azure portal setup here</em></p>
+---
 
-  <!-- Section 2: PowerShell User Creation -->
-  <h3>2. Creating Users with PowerShell</h3>
-  <ul>
-    <li>Enable remote access for all domain users on the client using system settings (or Group Policy for larger environments).</li>
-    <li>Understand Group Policy Objects (GPOs) to manage settings across multiple computers.</li>
-    <li>Open <strong>PowerShell ISE as Administrator</strong> on the Domain Controller (DC1).</li>
-    <li>Run a PowerShell script to create up to 10,000 user accounts in the Employees OU.
-      <ul>
-        <li>All users get the default password: <code>Password1</code>.</li>
-        <li>Users are added to the <strong>Domain Users</strong> group.</li>
-      </ul>
-    </li>
-    <li>Test logins on the client machine to ensure new profiles are created on first login.</li>
-  </ul>
+## 1️⃣ Create Resource Group & Virtual Network
 
-  <!-- Screenshot placeholder -->
-  <p><em>Insert screenshots of PowerShell script and login tests here</em></p>
+- Create a Resource Group for the AD lab  
+- Create a Virtual Network inside the Resource Group  
+- Both VMs (Domain Controller & Client) will be deployed in this network
 
-</div>
+📸 **Screenshot to Insert Below:**  
+👉 Azure Portal showing Resource Group and Virtual Network overview
+
+![Resource Group & VNet](screenshots/REPLACE-rg-vnet.png)
+
+---
+
+## 2️⃣ Deploy Domain Controller & Client VMs
+
+- **Domain Controller (DC1):** Windows Server 2022  
+- **Client Machine (Client1):** Windows 10  
+- Both in the same Resource Group & Virtual Network
+
+📸 **Screenshot to Insert Below:**  
+👉 Azure Portal showing both VMs running
+
+![VMs Screenshot](screenshots/REPLACE-vms.png)
+
+---
+
+## 3️⃣ Configure Domain Controller & Client
+
+- Set DC1 private IP to **static**  
+- Disable Windows Firewall on DC1 (for lab/testing)  
+- On client, set DNS to DC1 private IP  
+- Restart client to apply DNS changes  
+- Test connectivity using `ping <DC-IP>`  
+- Confirm DNS using `ipconfig /all`
+
+📸 **Screenshot to Insert Below:**  
+👉 Command Prompt on client showing successful ping to DC & DNS configuration
+
+![DNS Verification Screenshot](screenshots/REPLACE-dns.png)
+
+---
+
+## 4️⃣ Enable Remote Desktop & Bulk User Creation
+
+- Allow domain users to log into client via Remote Desktop  
+- Open **PowerShell ISE as Administrator** on DC1  
+- Run script to create multiple users in Active Directory under **Employees OU**  
+- All users get default password “Password1”  
+- Verify users in **Active Directory Users and Computers**  
+- Test logins on client machine
+
+📸 **Screenshot to Insert Below:**  
+👉 Active Directory Users and Computers showing newly created users in Employees OU
+
+![AD Users Screenshot](screenshots/REPLACE-ad-users.png)
+
+---
+
+## 5️⃣ Test Domain User Logins
+
+- Log into client using a newly created domain user  
+- Confirm a new user profile is created on first login  
+- Lab is ready for further AD exercises
+
+📸 **Screenshot to Insert Below:**  
+👉 Client desktop showing successful login with a domain user account
+
+![User Login Screenshot](screenshots/REPLACE-user-login.png)
+
+---
+
+# 💼 Skills Demonstrated
+
+- Azure Resource Group & Virtual Network setup  
+- Windows Server Deployment (Domain Controller)  
+- Active Directory administration  
+- DNS configuration and testing  
+- PowerShell automation for bulk user creation  
+- Remote Desktop configuration & testing  
+
+---
+
+# 🔧 Instructions for Screenshots
+
+1. Create a folder in your repository called:
+
+```bash
+screenshots
+```
+
+2. Upload your images inside this folder.
+
+3. Replace the `REPLACE-xxx.png` names in the README with your actual filenames.
+
+> ⚠️ Keep the format: `![Description](screenshots/filename.png)`  
+> Only replace the filename; do not remove the `![]()` syntax.
