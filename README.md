@@ -1,8 +1,8 @@
 # 🖥 Active Directory Lab – Azure Step-by-Step
 
 <!-- TOP IMAGE: Replace with your own screenshot of the lab overview or Azure Portal -->
-📸 **Header Screenshot (Top of README)**  
-👉 Screenshot could be Azure Portal showing the AD lab overview, Resource Group, or both VMs running.
+<img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/638414ed-cda6-4f07-8966-aa5fc98c8e7f" />
+
 
 ![AD Lab Header](screenshots/REPLACE-header.png)
 
