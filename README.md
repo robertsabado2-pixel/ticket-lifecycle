@@ -57,10 +57,8 @@ This repository documents a hands-on lab for **preparing Active Directory infras
 - Verify users in **Active Directory Users and Computers**  
 - Test logins on client machine
 
-📸 **Screenshot to Insert Below:**  
-👉 Active Directory Users and Computers showing newly created users in Employees OU
+<img width="1187" height="711" alt="image" src="https://github.com/user-attachments/assets/df41f0c5-ce5b-4ada-ad03-9330c5a4e86f" />
 
-![AD Users Screenshot](screenshots/REPLACE-ad-users.png)
 
 ---
 
