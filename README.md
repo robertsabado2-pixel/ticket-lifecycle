@@ -1,4 +1,4 @@
-# 🖥 Active Directory Lab – Azure Step-by-Step
+# Azure Active Directory Lab – VM Deployment & User Management
 
 <!-- TOP IMAGE: Replace with your own screenshot of the lab overview or Azure Portal -->
 <img width="1500" height="1001" alt="image" src="https://github.com/user-attachments/assets/f8b651ff-7521-44b5-9796-7f896defc82e" />
