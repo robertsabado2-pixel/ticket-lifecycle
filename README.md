@@ -43,7 +43,8 @@ This repository documents a hands-on lab for **preparing Active Directory infras
 - Test connectivity using `ping <DC-IP>`  
 - Confirm DNS using `ipconfig /all`
 
-<img width="1183" height="715" alt="image" src="https://github.com/user-attachments/assets/ff4ba7ae-12fc-4585-8e0e-9639b16b4f9a" />
+<img width="549" height="163" alt="Screenshot 2026-03-04 141943" src="https://github.com/user-attachments/assets/c66ce408-4b0e-4161-a3a3-99b35f3b0835" />
+
 
 ---
 
