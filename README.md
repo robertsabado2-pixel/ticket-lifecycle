@@ -1,10 +1,10 @@
 # 🖥 Active Directory Lab – Azure Step-by-Step
 
 <!-- TOP IMAGE: Replace with your own screenshot of the lab overview or Azure Portal -->
-<img width="275" height="183" alt="image" src="https://github.com/user-attachments/assets/638414ed-cda6-4f07-8966-aa5fc98c8e7f" />
+<img width="1500" height="1001" alt="image" src="https://github.com/user-attachments/assets/f8b651ff-7521-44b5-9796-7f896defc82e" />
 
 
-![AD Lab Header](screenshots/REPLACE-header.png)
+
 
 ---
 
