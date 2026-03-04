@@ -43,10 +43,7 @@ This repository documents a hands-on lab for **preparing Active Directory infras
 - Test connectivity using `ping <DC-IP>`  
 - Confirm DNS using `ipconfig /all`
 
-📸 **Screenshot to Insert Below:**  
-👉 Command Prompt on client showing successful ping to DC & DNS configuration
-
-![DNS Verification Screenshot](screenshots/REPLACE-dns.png)
+<img width="1183" height="715" alt="image" src="https://github.com/user-attachments/assets/ff4ba7ae-12fc-4585-8e0e-9639b16b4f9a" />
 
 ---
 
