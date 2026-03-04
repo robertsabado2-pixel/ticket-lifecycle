@@ -29,10 +29,8 @@ This repository documents a hands-on lab for **preparing Active Directory infras
 - **Client Machine (Client1):** Windows 10  
 - Both in the same Resource Group & Virtual Network
 
-📸 **Screenshot to Insert Below:**  
-👉 Azure Portal showing both VMs running
+<img width="1624" height="863" alt="image" src="https://github.com/user-attachments/assets/8fbbed58-964e-4857-bbef-1bb8fa1a4c4c" />
 
-![VMs Screenshot](screenshots/REPLACE-vms.png)
 
 ---
 
