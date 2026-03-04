@@ -84,17 +84,4 @@ This repository documents a hands-on lab for **preparing Active Directory infras
 
 ---
 
-# 🔧 Instructions for Screenshots
 
-1. Create a folder in your repository called:
-
-```bash
-screenshots
-```
-
-2. Upload your images inside this folder.
-
-3. Replace the `REPLACE-xxx.png` names in the README with your actual filenames.
-
-> ⚠️ Keep the format: `![Description](screenshots/filename.png)`  
-> Only replace the filename; do not remove the `![]()` syntax.
